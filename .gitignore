@@ -31,9 +31,10 @@ ENV/
 env/
 .venv/
 
-# Datasets (Avoid uploading large CSV datasets to GitHub)
-*.csv
-dataset/
+# Ignore generated/expected submissions
+expected_submission.csv
+*submission*.csv
+!dataset/sample_submission.csv
 
 # ML models / training logs
 catboost_info/
