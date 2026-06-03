@@ -35,6 +35,8 @@ env/
 expected_submission.csv
 *submission*.csv
 !dataset/sample_submission.csv
+!expected_submission.csv
+
 
 # ML models / training logs
 catboost_info/
